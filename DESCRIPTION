@@ -1,0 +1,24 @@
+Package: CalculadoraBasica
+Title: What the Package Does (One Line, Title Case)
+Description: What the package does (one paragraph).
+Version: 0.0.1
+Depends:
+    R (>= 3.6)
+Imports:
+    ggplot2 (>= 3.3.3),
+    dplyr (>= 1.0.6)
+Suggests:
+    plotly,
+    tseries
+Authors@R:
+    person("First", "Last",
+           email="first.last@example.com",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a license
+URL: https://github.com/santos-mucio, https://www.linkedin.com/in/santos-mucio
+BugReports: https://github.com/santos-mucio/EjemploPaqueteR/issues
+Encoding: UTF-8
+Language: es-MX
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
